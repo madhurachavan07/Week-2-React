@@ -1,0 +1,15 @@
+function Day5() {
+  const fruits = ["Apple", "Banana", "Mango"]
+
+  return (
+    <div>
+      <h1>Fruit List</h1>
+
+      {fruits.map((fruit) => (
+        <p key={fruit}>{fruit}</p>
+      ))}
+    </div>
+  )
+}
+
+export default Day5
